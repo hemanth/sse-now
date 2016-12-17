@@ -1,0 +1,30 @@
+{
+  "name": "sse-now",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A simple sever with SSE.",
+  "license": "MIT",
+  "repository": "hemanth/sse-now",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {}
+}
