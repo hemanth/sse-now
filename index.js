@@ -14,8 +14,8 @@ http.createServer((req, res) => {
 
   // forget favicon for now.
   if (req.url === '/favicon.ico') {
-    resp.writeHead(200, {'Content-Type': 'image/x-icon'});
-    resp.end();
+    res.writeHead(200, {'Content-Type': 'image/x-icon'});
+    res.end();
     return;
   }
 
