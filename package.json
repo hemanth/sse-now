@@ -26,7 +26,7 @@
     ""
   ],
   "dependencies": {
-    "marked": "^0.3.6",
+    "marked": "^0.6.2",
     "snyk": "^1.47.0"
   },
   "devDependencies": {},
